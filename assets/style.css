@@ -1,0 +1,1062 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr{
+   border: 0.1px solid rgb(47, 51, 54); 
+   scrollbar-track-color: white;
+} 
+
+body{
+    color: white;
+    background-color: black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    overscroll-behavior-x:auto;    
+}
+
+main {
+    display: flex;
+    
+}
+.container-1 {
+    width: 25%;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+   
+}
+.list-items {
+    padding-top: 1rem;
+}
+#items ion-icon {
+    padding-bottom: 1rem;
+}
+.container-1 h2 {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+#items {
+    display: flex;
+    align-items: center;
+    
+}
+#home{
+    display: block;
+}
+#home-{
+    display: none;
+}
+.btn-1- {
+    display: none;
+}
+.btn-1 {
+    display: block;
+    padding: 0.8rem 4rem;
+    background-color: rgb(25, 148, 248);
+    color: white;
+    border-radius: 2rem;
+}
+.twit {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+
+}
+.twit-note {
+    font-size: 0.7rem;
+    width: 60%;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* .container-1 {
+    
+
+} */
+.twit #pdf {
+    width: 20%;
+}
+span {
+    color: grey;
+}
+#pdf {
+    width: 20%;
+}
+#pdf img{
+    clip-path: circle();
+    width: 100%;
+}
+/* =========================================================================================CONTAINER-2====================================================================================== */
+
+
+.container-2 {
+    width: 50%;
+    overflow-y:scroll;
+    height: 100vh;
+    cursor:default;
+    /* scrollbar-width: normal; */
+    /* overflow-y: auto; */
+    /* overflow-inline: auto; */
+}
+.container-2::-webkit-scrollbar {
+    width: 10px;
+
+}
+.container-2::-webkit-scrollbar-track{
+    background-color: white;
+}
+.container-2::-webkit-scrollbar-thumb {
+    background-color: rgb(25, 148, 248);
+} 
+
+#home {
+    padding: 1rem 1rem;
+}
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.slide h2 {
+    font-size: 1.2rem;
+   
+}
+.slide .stick {
+    border-bottom: 5px  rgb(25, 148, 248) solid;
+}
+.happenings {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+} 
+.happenings input {
+    border: 0;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.happenings #pdf {
+    width: 8%;
+}
+.box-2-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-slide {
+    display: flex;
+    padding-left: 5.2rem;
+    justify-content: space-between;
+    width: 40%;
+    color: rgb(25, 148, 248) ;
+}
+.box-2-btn {
+    padding: 1rem 2rem;
+    background-color: rgb(25, 148, 248);
+    color: white;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.6rem;
+}
+.box-2-31 {
+    text-align: center;
+    padding: 1rem;
+    color: rgb(25, 148, 248)
+}
+/* ===========================================================================CONTAINER3============================================================================ */
+.container-3 {
+    width: 25%;
+    height: 50%;
+    overflow-y:scroll;
+    height: 100vh;
+    cursor: default;
+
+    /* scrollbar-width: normal; */
+    /* overflow-y: auto; */
+    /* overflow-inline: auto; */
+}
+.container-3::-webkit-scrollbar {
+    width: 10px;
+
+}
+.container-3::-webkit-scrollbar-track{
+    background-color: white;
+}
+.container-3::-webkit-scrollbar-thumb {
+    background-color: rgb(25, 148, 248);
+} 
+.search-bar {
+    width: 90%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 0.6rem 1.3rem;
+    margin: 1rem;
+}
+.search-bar:hover{
+    border: 1px rgb(25, 148, 248) solid;
+
+}
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    outline: none;
+    border: 0;
+    /* padding: 24px 20px; */
+    color: white;
+}
+.search-bar button{
+    border: 0;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    font-size: 2rem;
+    color: grey;
+
+}
+.trends-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+    width: 90%;
+}
+.tren {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+}
+.trends-container h1 {
+    padding-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+.trends-container h5 {
+    color: grey;
+}
+.trends-container h5 span {
+    color: rgb(25, 148, 248);
+}
+.trends-container h2 {
+    font-size: 1rem;
+}
+.tren-1 {
+    padding-bottom: 1.5rem;
+}
+.tren-2 {
+    padding-bottom: 1.5rem;
+}
+.tren-3 {
+    padding-bottom: 1.5rem;
+}
+.tren-4 {
+    padding-bottom: 1.5rem;
+}
+.tren-5 {
+    padding-bottom: 1.5rem;
+}
+/* .tren-6 {
+    padding-bottom: 1.5rem;
+} */
+.yet-to-see {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.yet-to-see #pdf {
+    width: 10%;
+    padding-left: 1rem;
+}
+.follow {
+    border-radius: 1rem;
+    padding: 1rem;
+    /* padding-bottom: 1rem; */
+    margin: 1rem;
+    background-color: rgb(47, 51, 54);
+}
+.cas {
+    display: flex;
+   font-size: 12px;
+    padding-top: 1rem;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+}
+/* .cas-photo {
+    /* width: 40%; */
+
+/* .cas-photo img {
+    width: 100%;
+} */
+.cas-cas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+.follow button {
+    display: flex;
+    align-items: center;
+    /* width: 20%; */
+    padding: 0.5rem;
+    border-radius: 1rem;
+    /* text-align: center; */
+    margin: 0 auto;
+    border: none;
+}
+
+.glory-{
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+   font-size: 12px;
+    /* justify-content: space-between; */
+}
+/* .glory-photo {
+    padding-right: 1rem;
+} */
+.glo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+.sir{
+    padding-top: 1rem;
+   font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    /* justify-content: space-between;  */
+}
+/* .ud-pho {
+    padding-right: 1rem;
+} */
+.ud-ud {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+/* ==============================================CONTAINER2=============================================SIS======================================================== */
+.sis {
+    padding-left: 1rem;
+    align-items: center;
+    width: 100%;
+    padding-right: 1rem;
+
+}
+.sis span {
+    color: grey;
+}
+.sis ion-icon {
+    color: rgb(25, 148, 248);
+    font-size: 1rem;
+   
+}
+#h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#coment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    cursor: pointer;
+
+}
+.share ion-icon {
+    color: grey;
+}
+.share ion-icon:hover {
+    color: rgb(25, 148, 248);
+
+}
+.retweet ion-icon {
+    color: grey;
+}
+.retweet ion-icon:hover{
+    color: green;
+}
+.rate ion-icon {
+    color: grey;
+}
+.rate ion-icon:hover{
+    color: rgb(25, 148, 248);
+}
+.love {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.media-share {
+    display: none;
+}
+.share{
+    display: block;
+}
+.love ion-icon {
+    color: grey;
+}
+.love ion-icon:hover{
+    color: red;
+}
+#coment ion-icon {
+   font-size: 1.5rem;
+
+}
+.chat ion-icon {
+    color: grey;
+
+}
+.chat ion-icon:hover {
+    /* background: rgb(25, 148, 248); */
+    color: rgb(25, 148, 248);
+}
+/* =======================================================================================NICK============================================================== */
+.nickpick #pdf {
+    width: 8%;
+    /* padding-left: 1rem; */
+}
+.nickpick {
+    display: flex;
+    /* align-items: center; */
+    padding: 1rem;
+}
+.nick-notes {
+    padding-left: 1rem;
+    width: 100%;
+    /* padding-right: 1rem; */
+
+}
+/* .comments-1{
+    padding-left: 5rem;
+    padding-right: 6rem;
+    
+
+} */
+.pick {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat , .retweet , .rate , .share{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ===============================================================COMMUNITY JINGLIS================================================================= */
+#same {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.community {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
+}
+.cj {
+    display: flex;
+    padding-top: 1rem;
+    
+}
+.cj #pdf {
+    width: 16%;
+}
+.jinglis {
+    display: flex;
+    padding-left: 1rem;
+}
+.glis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .comments-2 {
+    padding: 0 5rem;
+} */
+#coment {
+    padding-bottom: 1rem;
+}
+.glis-img {
+    width: 95%;
+}
+.glis-img img {
+    width: 100%;
+    border-radius: 1rem;
+}
+#blue span{
+    color: rgb(25, 148, 248);
+}
+/* ======================================================DOJO================================================================================================== */
+.yk-note {
+    padding-left: 1rem;
+}
+.dojo {
+    display: flex;
+    padding: 1rem;
+    
+}
+.small {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.small img {
+    width: 13%;
+    clip-path: circle();
+}
+.small span {
+    font-size: 0.8rem;
+    color: white;
+    padding: 0 5px;
+    background:rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+}
+.yk{
+    background-color: rgb(92, 92, 194);
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin: 1rem 1rem 0 0;
+}
+.yk h6 {
+    padding: 1rem 0;
+}
+.yk button {
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 100%;
+}
+.yk ion-icon {
+    font-size: 1.5rem;
+}
+/* .comments-4 {
+    padding: 0 5rem;
+} */
+.dojo #pdf {
+    width: 10%;
+   
+}
+/* ===================================================================================================PETEROBI */
+.po-1 #pdf {
+    width: 8%;
+    /* padding-left: 1rem; */
+}
+.peter{
+    display: flex;
+    padding: 1rem;
+}
+.po- {
+    display: flex;
+}
+.po-note {
+    padding-left: 1rem;
+    width: 100%;
+    /* padding-right: 1rem; */
+    
+}
+.images {
+    display: flex;
+    width: 100%;
+    /* height: 20%; */
+    padding-left: 4rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+}
+
+.image-1 {
+    width: 50%;
+
+}
+.image-{
+    border-radius: 1rem 0;
+}
+.image-1 img {
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+    padding-right: 2px;
+
+}
+.image-2 {
+    width: 50%;
+}
+.image-2 img {
+    width: 100%;
+    /* height: 42%; */
+}
+.image1 img{
+    border-radius: 0 1rem  0 0;
+
+}
+.image2 img{
+    border-radius: 0 0 1rem 0;
+}
+.comments-5 {
+    padding: 4rem;
+}
+
+/* ====================================================================================IDRIS========================================================= */
+.idris {
+    display: flex;
+    padding: 1rem;
+}
+.idris #pdf  {
+    width: 10%;
+}
+.github {
+    width: 100%;
+    padding-top: 1rem;
+}
+.github img {
+    width: 95%;
+    border-radius: 1rem;
+}
+.idris-note {
+    padding-left: 1rem;
+}
+.idris h5 span {
+    color: rgb(25, 148, 248);
+}
+/* =====================================================HACK======================================== */
+.hack {
+    display: flex;
+    padding: 1rem;
+}
+.hack #pdf {
+    width: 10%;
+    /* padding: 1rem 0 0 1rem; */
+}
+.sultan {
+    padding-left: 1rem;
+    width: 100%;
+}
+.tan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* =====================================================CHISOM================================================================ */
+.nwokwu {
+    display: flex;padding: 1rem;
+}
+.guide {
+    display: flex;
+    width: 100%;
+}
+.guide-{
+    width: 75%;
+    padding-right: 5px;
+}
+.guide- img{
+    border-radius: 1rem 0 0 1rem;
+}
+.guide2 img {
+    border-radius: 0 1rem 1rem 0;
+
+}
+.guide2 {
+    width: 80%;
+    padding-right: 2rem;
+}
+.guide img {
+    width: 100%;
+    
+}
+/* .chisom-note {
+    /* padding-top: 1rem; */
+/* }  */
+.som {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nwokwu #pdf{
+    width: 30%;
+}
+.chisom-note {
+    padding-left: 1rem;
+
+}
+/* =========================================================================SHILLER========================================================================== */
+.defi {
+    padding: 1rem;
+}
+.shill #pdf {
+    width: 8%;
+}
+
+.shiller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shill {
+    display: flex;
+}
+.shill-note {
+    padding-left: 1rem;
+    width: 100%;
+
+}
+/* /'==============================================================================BIG=NENZ============================================================ */
+.azure {
+    width: 100%;
+    display: flex;
+
+}
+.azure1 {
+    width: 100%;
+}
+.azure1 img {
+    width: 100%;
+    border-radius: 1rem  0 0 1rem;
+
+}
+.azure2 {
+    width: 100%;
+    padding-right: 1rem;
+
+}
+.azure2 img {
+    width: 100%;
+    border-radius: 0 1rem 1rem 0;
+}
+.adora{
+    padding-left: 1rem;
+}
+.oriaku {
+    padding: 1rem;
+    display: flex;
+}
+.oriaku #pdf {
+    width: 40%;
+}
+.nwodo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 1rem; */
+}
+.adora h5 span{
+    color: rgb(25, 148, 248);
+}
+/* ===================================================MARK-DAVID=================================================== */
+.david {
+    display: flex;
+    padding: 1rem;
+
+}
+.mark-images {
+    display: flex;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.gmail {
+    width: 100%;
+}
+.gmail img{
+    width: 100%;
+}
+.others {
+    width: 50%;
+}
+.others img {
+    width: 100%;
+}
+.david #pdf {
+    width: 40%;
+}
+.david h5 span {
+    color: rgb(25, 148, 248);
+}
+.mark-det {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.dav-oju {
+    padding-left: 1rem;
+
+}
+/* ---------------------------------====================================WEB3BRIDGE=============================================== */
+.web3 {
+    padding: 1rem;
+}
+.bridge {
+    display: flex;
+}
+.bridge #pdf {
+    width: 12%;
+}
+.web3-note {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.web-det {
+    display: flex;
+    padding-bottom: 0.8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.web3bridge {
+    width: 100%;padding-top: 1rem;
+}
+.web3bridge img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.media-bottom{
+    display: none;
+}
+.media-add{
+    display: none;
+}
+/* ==========================================================================================================================================================MEDIA QUERY=================================================================================================================================================== */
+@media only screen and (max-width:950px){
+
+    .container-1 {
+        width: 14%;
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        padding: 1rem;
+        /* height: 100vw; */
+    }
+    #home{
+        display: block;
+    }
+    #home-{
+        display: none;
+    }
+    .twitter-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .list-items h2 {
+        display: none;
+    }
+    .list-items ion-icon {
+        width: 100%;
+    }
+    .container-2 {
+        width: 100%;
+    }
+    .btn-1 {
+        display: none;
+    }
+    .btn-1- {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 0.8rem;
+        margin-bottom: 4rem;
+        background-color: rgb(25, 148, 248);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .leaf {
+        font-size: 1.3rem;
+    }
+    .twit-note{
+        display: none;
+    }
+    .twit {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+    
+    }
+    .twit #pdf {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .twit #pdf img {
+        width: 100%;
+    }
+    .container-3 {
+        display: none;
+    }
+    .media-share {
+        display: none;
+    }
+    .share{
+        display: block;
+    }
+    .media-bottom{
+        display: none;
+    }
+    .media-add{
+        display: none;
+    }
+}
+/* ================================================================================================MOBILE VIEW=========================================================================================== */
+@media only screen and (max-width:600px){
+    .container-1{
+        display: none;
+    }
+    
+    .container-2 {
+        width: 100%;
+        padding-bottom: 4rem;
+        
+    }
+    .container-3 {
+        display: none;
+    }
+    .star {
+        color: rgb(25, 148, 248);
+        font-size: 1.6rem;
+
+    }
+    #star {
+        font-size: 1.6rem;
+    }
+    #home{
+        display: none;
+    }
+    #home-{
+        display: block;
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #home- #pdf img {
+        width: 40%;
+    }
+    .home-media {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .slide{
+        display: none;
+    }
+    .happenings {
+        display: none;
+    }
+    .box-2-icons{
+        display: none;
+    }
+    .yet-to-see #pdf {
+        width: 15%;
+        padding-left: 1rem;
+    }
+    .nickpick #pdf{
+        width: 13%;
+    }
+    .cj #pdf {
+        width: 30%;
+    }
+    .dojo #pdf {
+        width: 15%;
+       
+    }
+    .po-1 #pdf {
+        width: 13%;
+        /* padding-left: 1rem; */
+    }
+    .idris #pdf  {
+        width: 20%;
+    }
+    .hack #pdf {
+        width: 14%;
+    }
+    .nwokwu #pdf{
+        width: 75%;
+    }
+    .shill #pdf {
+        width: 13%;
+    }
+    .oriaku #pdf {
+        width: 90%;
+    }
+    .david #pdf {
+        width: 90%;
+    }
+    .bridge #pdf {
+        width: 26%;
+    }
+    .rate {
+        display: none;
+    }
+    .media-share {
+        display: block;
+    }
+    .share{
+        display: none;
+    }
+    .media-bottom{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%; 
+        background-color: black;
+    }
+    .media-add{
+        display: block;
+        background-color: rgb(25, 148, 248);
+        width: 10%;
+        font-size: 3rem;
+        border-radius: 45%;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        bottom: 8rem;
+        left: 80%;
+    }
+}
