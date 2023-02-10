@@ -255,10 +255,10 @@ span {
     padding-bottom: 1.5rem;
     font-size: 1.4rem;
 }
-.trends-container h5 {
+.trends-container h4 {
     color: grey;
 }
-.trends-container h5 span {
+.trends-container h4 span {
     color: rgb(25, 148, 248);
 }
 .trends-container h2 {
@@ -669,7 +669,7 @@ span {
 .idris-note {
     padding-left: 1rem;
 }
-.idris h5 span {
+.idris h4 span {
     color: rgb(25, 148, 248);
 }
 /* =====================================================HACK======================================== */
@@ -792,7 +792,7 @@ span {
     justify-content: space-between;
     /* padding-right: 1rem; */
 }
-.adora h5 span{
+.adora h4 span{
     color: rgb(25, 148, 248);
 }
 /* ===================================================MARK-DAVID=================================================== */
@@ -822,7 +822,7 @@ span {
 .david #pdf {
     width: 45%;
 }
-.david h5 span {
+.david h4 span {
     color: rgb(25, 148, 248);
 }
 .mark-det {
@@ -1083,32 +1083,32 @@ span {
         justify-content: space-between;
     }
     .love h5{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         font-weight: 100;
     }
     .chat h5{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         font-weight: 100;
     }
     .retweet h5{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         font-weight: 100;
     }
 
     .chat ion-icon{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
 
     }
     .retweet ion-icon{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
 
     }
     .love ion-icon{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
 
     }
     .media-share ion-icon{
-        font-size: 0.6rem;
+        font-size: 0.4rem;
     }
     .share{
         display: none;
@@ -1155,7 +1155,7 @@ span {
         justify-content: space-between;
     
     }
-    .small h5 span {
+    .small  span {
         font-size: 0.9rem;
     }
 }
