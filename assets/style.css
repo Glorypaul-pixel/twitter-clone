@@ -1058,56 +1058,56 @@ span {
     
     }
     .media-share {
-        width: 5%;
+        width: 13%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .retweet {
-        width: 15%;
+        width: 13%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .chat  {
-        width: 15%;
+        width: 13%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .love{
-        width: 15%;
+        width: 13%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .love h5{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: 100;
     }
     .chat h5{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: 100;
     }
     .retweet h5{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: 100;
     }
 
     .chat ion-icon{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
 
     }
     .retweet ion-icon{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
 
     }
     .love ion-icon{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
 
     }
     .media-share ion-icon{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
     .share{
         display: none;
