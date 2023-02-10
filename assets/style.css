@@ -16,7 +16,6 @@ body{
     line-height: 1.5rem;
     cursor: pointer;
     overflow: hidden;
-
     overscroll-behavior-x:auto;    
 }
 button{
@@ -989,7 +988,7 @@ span {
         justify-content: space-between;
     }
     #home- #pdf img {
-        width: 40%;
+        width: 20%;
     }
     .home-media {
         width: 50%;
@@ -1065,19 +1064,19 @@ span {
         justify-content: space-between;
     }
     .retweet {
-        width: 10%;
+        width: 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .chat  {
-        width: 10%;
+        width: 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .love{
-        width: 10%;
+        width: 15%;
         display: flex;
         align-items: center;
         justify-content: space-between;
