@@ -945,7 +945,7 @@ span {
     
     .container-2 {
         width: 100%;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
         line-height: 1rem;
         font-size: 0.6rem;
         font-weight: 200;
@@ -996,13 +996,13 @@ span {
         padding-left: 1rem;
     }
     .nickpick #pdf{
-        width: 13%;
+        width: 12%;
     }
     .cj #pdf {
-        width: 30%;
+        width: 50%;
     }
     .dojo #pdf {
-        width: 15%;
+        width: 23%;
        
     }
     .po-1 #pdf {
@@ -1010,22 +1010,22 @@ span {
         /* padding-left: 1rem; */
     }
     .idris #pdf  {
-        width: 20%;
+        width: 30%;
     }
     .hack #pdf {
-        width: 14%;
+        width: 13%;
     }
     .nwokwu #pdf{
-        width: 75%;
+        width: 100%;
     }
     .shill #pdf {
         width: 13%;
     }
     .oriaku #pdf {
-        width: 90%;
+        width: 100%;
     }
     .david #pdf {
-        width: 90%;
+        width: 100%;
     }
     .bridge #pdf {
         width: 26%;
