@@ -468,7 +468,7 @@ span {
     justify-content: space-between;
 }
 .chat , .retweet , .rate , .share{
-    width: 15%;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -945,9 +945,10 @@ span {
     
     .container-2 {
         width: 100%;
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
         line-height: 1rem;
-        font-size: 0.9rem;
+        font-size: 0.6rem;
+        font-weight: 200;
         
     }
     .container-3 {
@@ -1042,11 +1043,57 @@ span {
         color: rgb(25, 148, 248);
     
     }
-    .media-share{
-        width: 15%;
+    .media-share {
+        width: 10%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .retweet {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .chat  {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .love{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .love h5{
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+    .chat h5{
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+    .retweet h5{
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+
+    .chat ion-icon{
+        font-size: 1rem;
+
+    }
+    .retweet ion-icon{
+        font-size: 1rem;
+
+    }
+    .love ion-icon{
+        font-size: 1rem;
+
+    }
+    .media-share ion-icon{
+        font-size: 0.6rem;
     }
     .share{
         display: none;
@@ -1077,7 +1124,7 @@ span {
     .media-add{
         display: block;
         background-color: rgb(25, 148, 248);
-        width: 10%;
+        width: 14%;
         font-size: 3rem;
         border-radius: 45%;
         align-items: center;
